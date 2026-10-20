@@ -1,0 +1,28 @@
+{
+  "name": "supplysense-monorepo",
+  "version": "1.0.0",
+  "private": true,
+  "description": "SupplySense — Autonomous AI Procurement, Research & Verification Platform",
+  "workspaces": [
+    "packages/*",
+    "apps/*"
+  ],
+  "scripts": {
+    "dev": "concurrently \"npm run dev --workspace=@supplysense/api\" \"npm run dev --workspace=@supplysense/web\"",
+    "dev:api": "npm run dev --workspace=@supplysense/api",
+    "dev:web": "npm run dev --workspace=@supplysense/web",
+    "build": "npm run build --workspaces --if-present",
+    "test": "node --test tests/supplysense.test.mjs",
+    "lint": "eslint . --ext .ts,.tsx",
+    "format": "prettier --write \"**/*.{ts,tsx,json,md}\""
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.2",
+    "eslint": "^8.57.0",
+    "prettier": "^3.2.5",
+    "typescript": "^5.4.5"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}

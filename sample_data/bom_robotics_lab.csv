@@ -1,0 +1,6 @@
+PartNumber,Description,Quantity,TargetUnitPriceINR,MandatorySpecifications
+MOT-12V-300M,12V DC Geared Motor (300 RPM),5,500,"voltage_v=12; gearbox_material=metal; torque_kg_cm>5"
+MCU-ESP32-WROOM,ESP32-WROOM-32E Wi-Fi+BLE Dev Board,4,420,"voltage_v=3.3; flash_mb>=4; usb_c=true"
+DRV-BTS7960-43A,BTS7960 43A High-Power H-Bridge Motor Driver,5,310,"current_a>=40; voltage_v=12"
+PSU-SMPS-12V30A,12V 30A 360W Industrial Regulated SMPS,2,1450,"voltage_v=12; current_a>=30; metal_enclosure=true"
+SEN-INA219-CUR,INA219 Bidirectional I2C Current/Power Sensor,6,185,"interface=I2C; max_voltage_v=26"

@@ -1,0 +1,12 @@
+--- Page 1 ---
+ENGINEERING SPECIFICATION SHEET — AUTONOMOUS ROVER DRIVE SUBSYSTEM
+Document ID: SPEC-ROVER-2026-REV2
+
+Mandatory Component Requirements:
+MOT-12V-300M : voltage = 12V
+MOT-12V-300M : gearbox = All-Metal Hardened Steel Spur
+MOT-12V-300M : torque = 6.0 kg-cm
+MOT-12V-300M : unit_price = 445
+MOT-12V-300M : shipping_fee = 0
+MOT-12V-300M : gst = 18% Included
+MOT-12V-300M : warranty = 6 Months

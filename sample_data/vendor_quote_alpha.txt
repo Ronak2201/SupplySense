@@ -1,0 +1,13 @@
+--- Page 1 ---
+SUPPLIER QUOTATION #QT-2026-8841
+Vendor: Alpha ElectroMech Distributors Pvt. Ltd.
+GSTIN: 27AABCA8841K1Z5
+Validity: 14 Days
+
+MOT-12V-300M : voltage = 12V
+MOT-12V-300M : gearbox = Plastic Composite Stage-1
+MOT-12V-300M : torque = 5.4 kg-cm
+MOT-12V-300M : unit_price = 460
+MOT-12V-300M : shipping_fee = 250
+MOT-12V-300M : gst = 18% Extra (Not Included in Unit Price)
+MOT-12V-300M : warranty = 3 Months
